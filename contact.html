@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Naeem Web Development</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Naeem Web</div>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>Contact Us</h1>
+    <p>Send us a message and we’ll respond quickly. You can also email or call us directly.</p>
+    <p>Email: <a href="mailto:naeemkhang482@gmail.com">naeemkhang482@gmail.com</a></p>
+    <p>Phone: +92 319 2787749</p>
+
+    <form action="https://formspree.io/f/mgvnykpo" method="POST">
+      <label>Your Name:</label>
+      <input type="text" name="name" required>
+
+      <label>Your Email:</label>
+      <input type="email" name="email" required>
+
+      <label>Message:</label>
+      <textarea name="message" required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Naeem Web Development | All Rights Reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
